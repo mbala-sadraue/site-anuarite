@@ -1,0 +1,150 @@
+.margin-top{
+  margin-top: 100px;
+}
+#header #barraNavegacao .navbar-nav .nav-item .link-activo{
+  color:var(--primario);
+  border-bottom: 2px solid var(--primario);
+}
+.header-page{
+  background: rgba(0,0,0,0.4);
+   padding: 150px 0px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.page-header-contacto{
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../../images/page-header-contacto.jpg");
+ background-size: cover;
+ background-position: center center;
+
+}
+.page-header-colegio{
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../../images/page-header-colegio.jpg");
+ background-size: cover;
+ background-position: center center;
+
+}
+.page-header-quemsomos{
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../../images/page-header-quem-somos.jpg");
+ background-size: cover;
+ background-position: center center;
+
+}
+.page-header-transporte{
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../../images/page-header-transporte.jpg");
+ background-size: cover;
+ background-position: center center;
+
+}
+.header-page, .page-texto{
+  color:#fff;
+}
+.page-texto h2{
+text-transform: uppercase;
+ font-size: 0.58cm;
+ font-weight: 600;
+}
+.page-texto  p{
+ text-transform:uppercase;
+ margin-top: 20px;
+ font-size: 0.90cm;
+ font-weight: 500;
+ letter-spacing: 0.09cm;
+}
+
+
+
+
+
+.title{
+  margin-bottom: 40px;
+  color: var(--primario);
+  text-transform: uppercase;
+}
+.caixa-contacto{
+  background-color: var(--caixa);
+  text-align: center;
+  padding: 40px 20px;
+}
+.icon-contacto{
+  font-size:1.90cm;
+  color:var(--primario);
+  margin:20px 0px ;
+}
+.caixa-contacto h4{
+ margin :10px 0px;
+ font-weight: 700;
+}
+.caixa-contacto p{
+ font-size: 0.39cm;
+}
+.caixa-contacto{
+  line-height: 0.80cm;
+}
+.contacto-texto{
+  color: var(--primario);
+  font-weight: bold;
+}
+.container-contacto{
+  font-size: 0.38cm;
+  color:rgba(108, 108, 108, 0.84);
+  line-height: 0.70cm;
+}
+
+/* SESSSOA DE MISSOA VISÃO E VALORES */
+.sessao-missao{
+  margin:20px 0px;
+  background: rgb(40, 103, 128);
+  color:#fff;
+  text-align:center;
+}
+.sessao-missao .missao-title{
+  padding-bottom:40px;
+  font-size: 1cm;
+  
+}
+.sessao-missao p{
+  padding-bottom:40px;
+  line-height: 0.70cm;
+  font-weight: 300;
+  
+}
+.sessao-missao ul{
+  padding-bottom:40px;
+  line-height: 0.90cm;
+  text-align: left;
+} 
+
+
+
+
+/* Transporte escolares */
+.caxa-transporte {
+  margin: 20px 0px;
+  border: 1px solid var(--caixa);
+}
+.caxa-transporte .transporte-texto{
+  padding: 20px;
+}
+.caxa-transporte .transporte-texto h4{
+  color :var(--quarta);
+  font-size: 0.40cm;
+}
+.caxa-transporte .transporte-texto p{
+  line-height: 0.60cm;
+  font-size: 0.37cm;
+  color: #4a4a4a;
+  padding-right: 10px;
+}
+
+.caxa-estrela{
+  display: flex;
+}
+.caxa-estrela li{
+  margin-left: 10px;
+  color: var(--quarta);
+}
+
+/*PAGINA DE GALERIA*/
+.container-page-galeria img {
+  margin:10px 0px;
+}
